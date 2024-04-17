@@ -9,6 +9,7 @@
 	font-family: $secondaryFont;
 	font-size: 2.75rem; /*44px*/
 	font-weight: 600;
+	color: $secondaryColor;
 }
 @mixin button{
 	width: 18.3125rem; /*293px*/
