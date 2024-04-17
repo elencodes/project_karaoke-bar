@@ -1,0 +1,28 @@
+//Объявление миксинов
+@mixin mainFont{
+	font-family: $mainFont;
+	font-weight: 400;
+	font-size: 1.25rem; /*20px*/
+	color: $mainColor;
+}
+@mixin mainH2{
+	font-family: $secondaryFont;
+	font-size: 2.75rem; /*44px*/
+	font-weight: 600;
+}
+@mixin button{
+	width: 18.3125rem; /*293px*/
+	height: 2.5625rem; /*41px*/
+	background-color: $secondaryColor;
+	color: $accentColor;
+}
+@mixin linkHover {
+	text-decoration: underline;
+	text-decoration-color: $mainColor;
+	transition: color .1s linear;
+}
+@mixin linkActive {
+	color: $secondaryColor;
+	text-decoration-color: $secondaryColor;
+	transition: text-decoration-color .1s linear, color .1s linear;
+}
