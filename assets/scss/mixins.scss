@@ -27,3 +27,9 @@
 	text-decoration-color: $secondaryColor;
 	transition: text-decoration-color .1s linear, color .1s linear;
 }
+@mixin headerLine {
+    color: $mainColor;
+	font-family: $mainFont;
+	font-size: .875rem; /*14px*/
+	font-weight: 400;
+}
