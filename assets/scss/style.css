@@ -241,7 +241,7 @@ body {
   margin: 0 auto;
   height: 60.625rem; /*970 px**/
   /*margin-bottom: 5.875rem;/* 94 px**/
-  border: white solid 1px;
+  color: white;
 }
 .container--menu h2 {
   color: #dcca87;
