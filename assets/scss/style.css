@@ -239,7 +239,7 @@ body {
 
 /*  О нас */
 .about-us__body {
-  width: 100%;
+  width: 90rem;
   display: flex;
   flex-direction: column;
   background: url(../images/background.png) center no-repeat;
@@ -253,6 +253,7 @@ body {
   font-weight: 600;
   color: #DCCA87;
   text-transform: uppercase;
+  padding-bottom: 3.375rem;
 }
 
 .about-us__content {
@@ -268,6 +269,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 3.75rem;
+  gap: 1.875rem;
 }
 
 .about-us__content--title {
@@ -277,10 +279,17 @@ body {
   color: #FFFFFF;
 }
 
+.about-us__content--text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
 .about-us__content--p {
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  width: 36.125rem;
+  width: 31.25rem;
+  line-height: 175%;
 }/*# sourceMappingURL=style.css.map */
