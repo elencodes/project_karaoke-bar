@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -5,8 +6,6 @@
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -85,7 +84,8 @@ pre {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 b, strong {
@@ -236,3 +236,51 @@ body {
   max-width: 73.125rem; /*1170px*/
   margin: 0 auto;
 }
+
+/*  О нас */
+.about-us__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url(../images/background.png) center no-repeat;
+  padding: 5.875rem 8.375rem;
+  background-size: cover;
+}
+
+.about-us__header {
+  font-family: "Cormorant", sans-serif;
+  font-size: 2.75rem; /*44px*/
+  font-weight: 600;
+  color: #DCCA87;
+  text-transform: uppercase;
+}
+
+.about-us__content {
+  display: flex;
+}
+
+.about-us__image {
+  width: 31.375rem;
+  height: 33.125rem;
+}
+
+.about-us__content--box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.75rem;
+}
+
+.about-us__content--title {
+  font-family: "OpenSans", sans-serif;
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.about-us__content--p {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem; /*20px*/
+  color: #FFFFFF;
+  width: 36.125rem;
+}/*# sourceMappingURL=style.css.map */

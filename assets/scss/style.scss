@@ -33,3 +33,40 @@ body {
 	max-width: 73.125rem; /*1170px*/
 	margin: 0 auto;
 }
+/*  О нас */
+.about-us__body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: url(../images/background.png) center no-repeat;
+	padding: 5.875rem 8.375rem; //94px 134px
+	background-size: cover;
+}
+.about-us__header {
+	@include mainH2;
+	text-transform: uppercase;
+}
+.about-us__content {
+	display: flex;
+}
+
+.about-us__image {
+	width: 31.375rem;//502
+	height: 33.125rem;//530px
+}
+.about-us__content--box {
+	display: flex;
+	flex-direction: column;
+	
+	padding-left: 3.75rem; //60px
+}
+.about-us__content--title {
+	font-family: $mainFont;
+	font-size: 2.75rem; //44px
+	font-weight: 600;
+	color: $mainColor;
+}
+.about-us__content--p {
+	@include mainFont;
+	width: 36.125rem; //578px
+}
