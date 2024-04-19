@@ -34,27 +34,33 @@ body {
 	margin: 0 auto;
 }
 /*  О нас */
-.about-us__body {
-	width: 90rem;//1440px
-	display: flex;
-	flex-direction: column;
+.about-us{
 	background: url(../images/background.png) center no-repeat;
-	padding: 5.875rem 8.375rem; //94px 134px
 	background-size: cover;
+}
+.about-us__body {
+	display: flex;
+	flex-direction: column;	
+	padding-top: 5.875rem;//94px 
+	padding-bottom: 5.875rem;//94px
 }
 .about-us__header {
 	@include mainH2;
 	text-transform: uppercase;
 	padding-bottom: 3.375rem;//54px
+	padding-left: 8.375rem;//134px
 }
 .about-us__content {
 	display: flex;
+	padding-left: 9.375rem;//150px
 }
 
 .about-us__image {
 	width: 31.375rem;//502
-	height: 33.125rem;//530px
+	height: 33.125rem;//530p
+	border: .0625rem solid $secondaryColor;//1px
 }
+
 .about-us__content--box {
 	display: flex;
 	flex-direction: column;
@@ -77,4 +83,29 @@ body {
 	@include mainFont;
 	width: 31.25rem; //500px
 	line-height: 175%;
+}
+/*Преимущества*/
+.benefit__body {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5.875rem;//94px
+	padding-bottom: 5.875rem;//94px
+	padding-left: 8.375rem;//134px
+}
+.benefit__title {
+	@include mainH2;
+	text-transform: uppercase;
+	padding-bottom: 3.375rem;//54px
+}
+.benefit__content--items {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-bottom: 3.75rem;//60px
+	gap: 1.75rem;//28px
+}
+	
+.benefit__text--p {
+	@include mainFont;
+	width: 66.1875rem;//1059px
 }

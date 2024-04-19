@@ -238,13 +238,16 @@ body {
 }
 
 /*  О нас */
+.about-us {
+  background: url(../images/background.png) center no-repeat;
+  background-size: cover;
+}
+
 .about-us__body {
-  width: 90rem;
   display: flex;
   flex-direction: column;
-  background: url(../images/background.png) center no-repeat;
-  padding: 5.875rem 8.375rem;
-  background-size: cover;
+  padding-top: 5.875rem;
+  padding-bottom: 5.875rem;
 }
 
 .about-us__header {
@@ -254,15 +257,18 @@ body {
   color: #DCCA87;
   text-transform: uppercase;
   padding-bottom: 3.375rem;
+  padding-left: 8.375rem;
 }
 
 .about-us__content {
   display: flex;
+  padding-left: 9.375rem;
 }
 
 .about-us__image {
   width: 31.375rem;
   height: 33.125rem;
+  border: 0.0625rem solid #DCCA87;
 }
 
 .about-us__content--box {
@@ -292,4 +298,38 @@ body {
   color: #FFFFFF;
   width: 31.25rem;
   line-height: 175%;
+}
+
+/*Преимущества*/
+.benefit__body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5.875rem;
+  padding-bottom: 5.875rem;
+  padding-left: 8.375rem;
+}
+
+.benefit__title {
+  font-family: "Cormorant", sans-serif;
+  font-size: 2.75rem; /*44px*/
+  font-weight: 600;
+  color: #DCCA87;
+  text-transform: uppercase;
+  padding-bottom: 3.375rem;
+}
+
+.benefit__content--items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 3.75rem;
+  gap: 1.75rem;
+}
+
+.benefit__text--p {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem; /*20px*/
+  color: #FFFFFF;
+  width: 66.1875rem;
 }/*# sourceMappingURL=style.css.map */
