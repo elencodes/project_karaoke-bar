@@ -44,20 +44,20 @@ body {
 	padding-top: 5.875rem;//94px 
 	padding-bottom: 5.875rem;//94px
 }
-.about-us__header {
+.about-us__h2 {
 	@include mainH2;
 	text-transform: uppercase;
 	padding-bottom: 3.375rem;//54px
-	padding-left: 8.375rem;//134px
+	
 }
 .about-us__content {
 	display: flex;
-	padding-left: 9.375rem;//150px
+	justify-content: center;
 }
 
 .about-us__image {
-	width: 31.375rem;//502
-	height: 33.125rem;//530p
+	max-width: 31.375rem;//502
+	max-height: 33.125rem;//530p
 	border: .0625rem solid $secondaryColor;//1px
 }
 
@@ -68,9 +68,7 @@ body {
 	gap: 1.875rem;//30px
 }
 .about-us__content--title {
-	font-family: $mainFont;
-	font-size: 2.75rem; //44px
-	font-weight: 600;
+	@include mainH2;
 	color: $mainColor;
 }
 .about-us__content--text{
@@ -81,8 +79,11 @@ body {
 
 .about-us__content--p {
 	@include mainFont;
-	width: 31.25rem; //500px
+	max-width: 31.25rem; //500px
 	line-height: 175%;
+}
+.text--bold {
+	font-weight: 700;
 }
 /*Преимущества*/
 .benefit__body {
@@ -90,7 +91,7 @@ body {
 	flex-direction: column;
 	padding-top: 5.875rem;//94px
 	padding-bottom: 5.875rem;//94px
-	padding-left: 8.375rem;//134px
+	
 }
 .benefit__title {
 	@include mainH2;
@@ -107,5 +108,5 @@ body {
 	
 .benefit__text--p {
 	@include mainFont;
-	width: 66.1875rem;//1059px
+	max-width: 66.1875rem;//1059px
 }

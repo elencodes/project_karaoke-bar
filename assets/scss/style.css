@@ -250,24 +250,23 @@ body {
   padding-bottom: 5.875rem;
 }
 
-.about-us__header {
+.about-us__h2 {
   font-family: "Cormorant", sans-serif;
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
   text-transform: uppercase;
   padding-bottom: 3.375rem;
-  padding-left: 8.375rem;
 }
 
 .about-us__content {
   display: flex;
-  padding-left: 9.375rem;
+  justify-content: center;
 }
 
 .about-us__image {
-  width: 31.375rem;
-  height: 33.125rem;
+  max-width: 31.375rem;
+  max-height: 33.125rem;
   border: 0.0625rem solid #DCCA87;
 }
 
@@ -279,9 +278,10 @@ body {
 }
 
 .about-us__content--title {
-  font-family: "OpenSans", sans-serif;
-  font-size: 2.75rem;
+  font-family: "Cormorant", sans-serif;
+  font-size: 2.75rem; /*44px*/
   font-weight: 600;
+  color: #DCCA87;
   color: #FFFFFF;
 }
 
@@ -296,8 +296,12 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  width: 31.25rem;
+  max-width: 31.25rem;
   line-height: 175%;
+}
+
+.text--bold {
+  font-weight: 700;
 }
 
 /*Преимущества*/
@@ -306,7 +310,6 @@ body {
   flex-direction: column;
   padding-top: 5.875rem;
   padding-bottom: 5.875rem;
-  padding-left: 8.375rem;
 }
 
 .benefit__title {
@@ -331,5 +334,5 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  width: 66.1875rem;
+  max-width: 66.1875rem;
 }/*# sourceMappingURL=style.css.map */
