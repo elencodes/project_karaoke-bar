@@ -1,12 +1,12 @@
 //Объявление миксинов
-@mixin mainFont{
+@mixin mainFont{ //OpenSans
 	font-family: $mainFont;
 	font-weight: 400;
 	font-size: 1.25rem; /*20px*/
 	color: $mainColor;
 	letter-spacing: 4%;
 }
-@mixin mainH2{
+@mixin mainH2{ //Cormorant
 	font-family: $secondaryFont;
 	font-size: 2.75rem; /*44px*/
 	font-weight: 600;
@@ -31,7 +31,7 @@
 	transition: text-decoration-color .1s linear, color .1s linear;
 }
 @mixin buttonHover {
-    border: .125rem solid $mainColor;
+	border: .125rem solid $mainColor;
 	color: $mainColor;
 	transition: border .1s linear, color .1s linear;
 }
@@ -42,7 +42,7 @@
 	transition: background .1s linear, color .1s linear, border .1s linear,;
 }
 @mixin headerLine {
-    color: $mainColor;
+	color: $mainColor;
 	font-family: $mainFont;
 	font-size: .875rem; /*14px*/
 	font-weight: 400;

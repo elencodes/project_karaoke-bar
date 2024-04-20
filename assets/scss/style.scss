@@ -69,13 +69,13 @@ body {
 	gap: 2rem;
 }
 .header__nav--part:hover{
-    @include linkHover;
+	@include linkHover;
 }
 .header__nav--part:active{
-    @include linkActive;
+	@include linkActive;
 }
 .header__phone{
-    display: flex;
+	display: flex;
 	align-items: center;
 }
 .header__nav--part,.header__phone--part{
