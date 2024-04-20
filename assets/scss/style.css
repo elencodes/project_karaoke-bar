@@ -243,13 +243,14 @@ body {
   margin: 0 auto;
   height: 41.25rem; /*600 px**/
   color: white;
-  margin-bottom: 5.875rem; /*94 px**/
+  margin-bottom: 11.75rem; /*188 px**/
+  margin-top: 5.875rem; /*94 px**/
 }
 .container--promo_block h2 {
-  color: #dcca87;
-  font-size: 2.75rem; /*44px**/
-  font-family: "Cormorant";
+  font-family: "Cormorant", sans-serif;
+  font-size: 2.75rem; /*44px*/
   font-weight: 600;
+  color: #DCCA87;
 }
 
 .promo_block-images {
@@ -270,14 +271,14 @@ body {
 .promo_block-images--card3 {
   width: 21.875rem; /* 350 px**/
   height: 34.375rem; /* 550 px**/
-  border: #dcca87 solid 2px;
+  border: #dcca87 solid 1px;
   display: flex;
   flex-direction: column;
 }
 .promo_block-images--card1 h3,
 .promo_block-images--card2 h3,
 .promo_block-images--card3 h3 {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   font-weight: 700;
   font-size: 1.25rem; /*20 px**/
   text-transform: uppercase;
@@ -316,11 +317,16 @@ body {
   background-color: #dcca87;
   font-size: 1rem;
   align-items: center;
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0C0C0C;
 }
 
 .promo_block-images--button {
   text-align: center;
   margin-top: 1rem;
+  color: #0C0C0C;
 }
 
 /* POP_UP**/
@@ -365,10 +371,30 @@ body {
 .modal p,
 .modal-2 p,
 .modal-3 p {
-  font-family: "Open Sans";
-  font-size: 1.25rem; /*20px**/
+  font-family: "OpenSans", sans-serif;
   font-weight: 400;
-  text-align: center;
+  font-size: 1.25rem; /*20px*/
+  color: #FFFFFF;
+  color: #0C0C0C;
+  text-align: left;
+}
+.modal .contact_modal,
+.modal-2 .contact_modal,
+.modal-3 .contact_modal {
+  display: flex;
+  justify-content: center;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem; /*20px*/
+  color: #FFFFFF;
+  color: #0C0C0C;
+  margin-top: 2rem;
+}
+.modal .contact_modal a,
+.modal-2 .contact_modal a,
+.modal-3 .contact_modal a {
+  margin-left: 1rem;
+  margin-top: -0.7rem;
 }
 
 .close-modal,

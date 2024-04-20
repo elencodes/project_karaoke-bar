@@ -40,12 +40,10 @@ body {
     margin:0 auto;
     height: 41.25rem;/*600 px**/
     color:white;
-    margin-bottom: 5.875rem;/*94 px**/
+    margin-bottom: 11.75rem;/*188 px**/
+    margin-top: 5.875rem;/*94 px**/
     h2{
-        color:#dcca87;
-        font-size: 2.75rem;/*44px**/
-        font-family: 'Cormorant';
-        font-weight: 600;
+        @include mainH2;
     }
 }
 .promo_block-images{
@@ -64,11 +62,11 @@ body {
 .promo_block-images--card3{
     width: 21.875rem; /* 350 px**/
     height: 34.375rem; /* 550 px**/
-    border:#dcca87 solid 2px;
+    border:#dcca87 solid 1px;
     display:flex;
     flex-direction: column;
     h3{
-        font-family: 'Open Sans';
+        font-family: 'OpenSans';
         font-weight: 700;
         font-size:1.25rem;/*20 px**/
         text-transform: uppercase;
@@ -110,10 +108,15 @@ body {
     background-color:#dcca87;
     font-size: 1rem;
     align-items: center;
+    font-family: $mainFont;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:$accentColor;
 }
 .promo_block-images--button{
     text-align: center;
     margin-top:1rem;
+    color:$accentColor;
 }
 
 /* POP_UP**/
@@ -153,11 +156,22 @@ body {
     text-align: center;
     border-radius:1.25rem;/*20px**/
     p{
-        font-family: 'Open Sans';
-        font-size: 1.25rem;/*20px**/
-        font-weight: 400;
-        text-align: center;
+        @include mainFont;
+        color:$accentColor;
+        text-align: left;
     }
+    .contact_modal{
+        display: flex;
+        justify-content: center;
+        @include mainFont;
+        color:$accentColor;
+        margin-top: 2rem;
+        a{
+            margin-left: 1rem;
+            margin-top: -0.7rem;
+        }
+    }
+
 }
 .close-modal,
 .close-modal-2,
