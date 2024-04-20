@@ -248,6 +248,7 @@ body {
   font-family: "OpenSans", sans-serif;
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
+  letter-spacing: 4%;
 }
 
 .header__logo {
@@ -268,13 +269,32 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
+  letter-spacing: 4%;
   color: #FFFFFF;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .header__nav {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+.header__nav--part:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+  transition: color 0.1s linear;
+}
+
+.header__nav--part:active {
+  color: #DCCA87;
+  text-decoration-color: #DCCA87;
+  transition: text-decoration-color 0.1s linear, color 0.1s linear;
 }
 
 .header__phone {
@@ -304,6 +324,7 @@ body {
   height: 2.5625rem; /*41px*/
   background-color: #DCCA87;
   color: #0C0C0C;
+  letter-spacing: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,8 +335,34 @@ body {
   font-family: "OpenSans", sans-serif;
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
+  letter-spacing: 4%;
   color: #0C0C0C;
   font-weight: 700;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserv:hover {
+  border: 0.125rem solid #FFFFFF;
+  color: #FFFFFF;
+  transition: border 0.1s linear, color 0.1s linear;
+  transform: 0.2s;
+}
+
+.reserv:active {
+  color: #DCCA87;
+  background-color: #FFFFFF;
+  border: 0.125rem solid #DCCA87;
+  transition: background 0.1s linear, color 0.1s linear, border 0.1s linear;
+  transform: 0.2s;
+}
+
+.header__social-media {
+  display: flex;
+  gap: 1.375rem;
 }
 
 .header__round-the-clock {
@@ -338,6 +385,9 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
+  letter-spacing: 4%;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
   color: #FFFFFF;
   margin-top: 12.3125rem;
 }

@@ -58,10 +58,21 @@ body {
 	@include mainH2;
 	color: $mainColor;
 }
+.header__address{
+	display: flex;
+	flex-direction: column;
+	gap: .75rem;
+}
 .header__nav{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
+}
+.header__nav--part:hover{
+    @include linkHover;
+}
+.header__nav--part:active{
+    @include linkActive;
 }
 .header__phone{
     display: flex;
@@ -91,6 +102,23 @@ body {
 	@include headerLine;
 	color: $accentColor;
 	font-weight: 700;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reserv:hover{
+	@include buttonHover;
+	transform:0.2s; 
+}
+.reserv:active{
+	@include buttonActive;
+	transform:0.2s; 
+}
+.header__social-media{
+	display: flex;
+	gap: 1.375rem;
 }
 .header__round-the-clock{
 	margin-top: .625rem;
@@ -107,6 +135,8 @@ body {
 }
 .header__h1{
 	@include mainH2;
+	font-family: $mainFont;
+	font-weight: 400;
 	color: $mainColor;
 	margin-top: 12.3125rem;
 }

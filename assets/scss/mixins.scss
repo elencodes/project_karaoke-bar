@@ -4,18 +4,21 @@
 	font-weight: 400;
 	font-size: 1.25rem; /*20px*/
 	color: $mainColor;
+	letter-spacing: 4%;
 }
 @mixin mainH2{
 	font-family: $secondaryFont;
 	font-size: 2.75rem; /*44px*/
 	font-weight: 600;
 	color: $secondaryColor;
+	letter-spacing: 4%;
 }
 @mixin button{
 	width: 18.3125rem; /*293px*/
 	height: 2.5625rem; /*41px*/
 	background-color: $secondaryColor;
 	color: $accentColor;
+	letter-spacing: 4%;
 }
 @mixin linkHover {
 	text-decoration: underline;
@@ -27,9 +30,21 @@
 	text-decoration-color: $secondaryColor;
 	transition: text-decoration-color .1s linear, color .1s linear;
 }
+@mixin buttonHover {
+    border: .125rem solid $mainColor;
+	color: $mainColor;
+	transition: border .1s linear, color .1s linear;
+}
+@mixin buttonActive {
+	color:$secondaryColor;
+	background-color:$mainColor;
+	border: .125rem solid $secondaryColor;
+	transition: background .1s linear, color .1s linear, border .1s linear,;
+}
 @mixin headerLine {
     color: $mainColor;
 	font-family: $mainFont;
 	font-size: .875rem; /*14px*/
 	font-weight: 400;
+	letter-spacing: 4%;
 }
