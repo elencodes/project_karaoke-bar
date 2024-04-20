@@ -55,10 +55,16 @@ body {
 	justify-content: center;
 }
 
-.about-us__image {
+.about-us__content--image {
 	max-width: 31.375rem;//502
 	max-height: 33.125rem;//530p
 	border: .0625rem solid $secondaryColor;//1px
+}
+
+.about-us__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .about-us__content--box {

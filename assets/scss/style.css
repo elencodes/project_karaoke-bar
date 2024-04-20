@@ -6,6 +6,8 @@
 }
 
 *, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -84,8 +86,7 @@ pre {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 b, strong {
@@ -264,10 +265,16 @@ body {
   justify-content: center;
 }
 
-.about-us__image {
+.about-us__content--image {
   max-width: 31.375rem;
   max-height: 33.125rem;
   border: 0.0625rem solid #DCCA87;
+}
+
+.about-us__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-us__content--box {
@@ -335,4 +342,4 @@ body {
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
   max-width: 66.1875rem;
-}/*# sourceMappingURL=style.css.map */
+}
