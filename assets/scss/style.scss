@@ -46,6 +46,7 @@ body {
         @include mainFont;
         text-align: center;
         margin-top: 3.375rem;
+        text-transform: uppercase;
     }
 }
 
@@ -68,7 +69,15 @@ body {
 .menu_block--text-and-button--button{
     @include button; 
     align-items: center;
+    font-family: $mainFont;
+    font-weight: 700;
 }
 .menu_block--text-and-button{
     text-align: center;
+}
+.menu_block--text-and-button--button:hover{
+    @include buttonHover;
+}
+.menu_block--text-and-button--button:active{
+    @include buttonActive;
 }

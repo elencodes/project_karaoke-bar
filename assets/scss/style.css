@@ -247,14 +247,17 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
+  letter-spacing: 4%;
 }
 .container--menu p {
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
+  letter-spacing: 4%;
   text-align: center;
   margin-top: 3.375rem;
+  text-transform: uppercase;
 }
 
 .menu_block--images {
@@ -280,9 +283,25 @@ body {
   height: 2.5625rem; /*41px*/
   background-color: #DCCA87;
   color: #0C0C0C;
+  letter-spacing: 4%;
   align-items: center;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
 }
 
 .menu_block--text-and-button {
   text-align: center;
+}
+
+.menu_block--text-and-button--button:hover {
+  border: 0.125rem solid #FFFFFF;
+  color: #FFFFFF;
+  transition: border 0.1s linear, color 0.1s linear;
+}
+
+.menu_block--text-and-button--button:active {
+  color: #DCCA87;
+  background-color: #FFFFFF;
+  border: 0.125rem solid #DCCA87;
+  transition: background 0.1s linear, color 0.1s linear, border 0.1s linear;
 }/*# sourceMappingURL=style.css.map */
