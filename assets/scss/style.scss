@@ -61,7 +61,7 @@ body {
 .header__address{
 	display: flex;
 	flex-direction: column;
-	gap: .75rem;
+	line-height: 1.75;
 }
 .header__nav{
 	display: flex;
@@ -208,7 +208,7 @@ body {
 
 .about-us__content--p {
 	@include mainFont;
-	max-width: 31.25rem; //500px
+	max-width: 36.125rem; //578px
 	line-height: 175%;
 }
 .text--bold {
@@ -219,8 +219,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding-top: 5.875rem;//94px
-	padding-bottom: 5.875rem;//94px
-	
 }
 .benefit__title {
 	@include mainH2;
@@ -596,6 +594,7 @@ justify-items: center;
     grid-row-end: 2;
 	margin-bottom: 3.8125rem;
 	border: 1px solid #DCCA87;
+	transition: 0.2s; 
 }
 .photo-gallery_pic_2 {
 	display: grid;
@@ -605,6 +604,7 @@ justify-items: center;
     grid-row-end: 2;
 	margin-bottom: 3.8125rem;
 	border: 1px solid #DCCA87;
+	transition: 0.2s; 
 }
 .photo-gallery_pic_3 {
 	display: grid;
@@ -613,6 +613,7 @@ justify-items: center;
     grid-row-start: 2;
     grid-row-end: 3;
 	border: 1px solid #DCCA87;
+	transition: 0.2s; 
 }
 .photo-gallery_pic_4 {
 	display: grid;
@@ -621,6 +622,7 @@ justify-items: center;
     grid-row-start: 2;
     grid-row-end: 3;
 	border: 1px solid #DCCA87;
+	transition: 0.2s; 
 }
 .photo-gallery_pic_1:hover {
 	transform: scale(1.05);
@@ -676,6 +678,7 @@ justify-items: center;
 .contacts_text_part_3-2 {
 	display: flex;
 	@include mainFont;
+	line-height: 1.75;
 }
 .contacts_text_block_1 {
 	display: flex;
@@ -725,6 +728,9 @@ justify-items: center;
 .contacts_button:hover {
 	@include buttonHover;
 }
+.contacts_button:active {
+	@include buttonActive;
+}
 .contacts_icon_1 {
 	display: flex;
 	margin-right: 1.375rem;
@@ -763,5 +769,3 @@ justify-items: center;
 .footer_text-policy:active {
 	@include linkActive;
 }
-
-
