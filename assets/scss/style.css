@@ -587,7 +587,8 @@ body {
   margin-left: 11rem;
   font-weight: 400;
   color: #FFFFFF;
-  height: 17.5rem;
+  line-height: 1.75;
+  height: 13.125rem;
 }
 
 .hookah {
