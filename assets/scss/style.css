@@ -1621,7 +1621,7 @@ body {
 .pop-up-2,
 .pop-up-3 {
   position: fixed;
-  top: 10%;
+  top: 30%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -2056,7 +2056,7 @@ body {
 
 /*АДАПТИВ БЛОКА Акции**/
 /*АДАПТИВ БЛОКА Акции Мобильная версия min-wiedth 771px max 1025px**/
-@media (min-width: 48.1875rem) and (max-width: 64.0625rem) {
+@media (min-width: 771px) and (max-width: 1025px) {
   .container--promo_block {
     height: 31.25rem; /*500 px**/
     max-width: 64rem;
@@ -2099,22 +2099,27 @@ body {
   .modal-2,
   .modal-3 {
     width: 40%;
-    height: 25%;
+    height: 30%;
   }
   .promo_block-images--button--button {
     font-size: 0.875rem;
   }
 }
 /*АДАПТИВ БЛОКА Акции Мобильная версия min-wiedth 432px max 770px**/
-@media (min-width: 27.06rem) and (max-width: 48.125rem) {
+@media (min-width: 431px) and (max-width: 770px) {
   .container--promo_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 46.725rem; /*746 px**/
-    max-width: 46rem;
+    /*max-width: 46rem;**/
     margin-bottom: 6.25rem; /*100 px **/
     margin-top: 2.5rem; /*100 px **/
   }
   .container--promo_block h2 {
     font-size: 1.625rem;
+    align-self: flex-start;
+    margin-left: 3.75rem;
   }
   .promo_block-images {
     height: 29.9375rem; /*479 px**/
@@ -2182,12 +2187,12 @@ body {
   .modal,
   .modal-2,
   .modal-3 {
-    width: 40%;
+    width: 60%;
     height: 30%;
   }
 }
 /*АДАПТИВ БЛОКА Акции Мобильная версия max-wiedth 431 px**/
-@media (max-width: 27em) {
+@media (max-width: 431px) {
   .container--promo_block {
     height: 54.8rem; /*870 px**/
     margin: 0 auto;
@@ -2199,7 +2204,6 @@ body {
   .container--promo_block h2 {
     font-size: 1rem;
     font-weight: 600;
-    margin-left: 1.875rem;
     margin-bottom: 1.5625rem;
     padding-top: 1.5625rem;
   }
@@ -2259,7 +2263,7 @@ body {
   .pop-up-2,
   .pop-up-3 {
     position: fixed;
-    top: 10%;
+    top: 30%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -2281,7 +2285,7 @@ body {
   .modal-3 {
     position: absolute;
     width: 70%;
-    height: 25%;
+    height: 30%;
   }
   .modal p,
   .modal-2 p,
@@ -2291,12 +2295,8 @@ body {
   .modal .contact_modal,
   .modal-2 .contact_modal,
   .modal-3 .contact_modal {
-    font-size: 0.625rem;
-  }
-  .modal .contact_modal,
-  .modal-2 .contact_modal,
-  .modal-3 .contact_modal {
     margin-top: 1.5rem;
+    font-size: 0.625rem;
   }
   .modal .contact_modal a,
   .modal-2 .contact_modal a,
@@ -2329,10 +2329,10 @@ body {
 }
 /*АДАПТИВ БЛОКА МЕНЮ**/
 /*АДАПТИВ БЛОКА МЕНЮ Мобильная версия min-wiedth 771px max 1025px**/
-@media (min-width: 48.1875rem) and (max-width: 64.0625rem) {
+@media (min-width: 771px) and (max-width: 1025px) {
   .container--menu {
     max-width: 60rem;
-    height: 53.75rem; /*860 px**/
+    height: 43.125rem; /*860 px**/
     margin-bottom: 4.375rem; /*70 px**/
   }
   .container--menu h2 {
@@ -2344,7 +2344,7 @@ body {
     font-weight: 400;
     font-size: 1.25rem; /*20px*/
     color: #FFFFFF;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     margin-top: 2.75rem; /*47 px**/
     font-size: 1rem; /*16 px**/
   }
@@ -2366,7 +2366,7 @@ body {
   }
 }
 /*АДАПТИВ БЛОКА МЕНЮ Мобильная версия min-wiedth 432px max 770px**/
-@media (min-width: 27.06rem) and (max-width: 48.125rem) {
+@media (min-width: 432px) and (max-width: 770px) {
   .container--menu {
     height: 32.5rem; /*520 px**/
     margin-bottom: 3.125rem; /*50 px**/
@@ -2376,7 +2376,7 @@ body {
     font-size: 2.75rem; /*44px*/
     font-weight: 600;
     color: #DCCA87;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     font-size: 1.625rem; /*26 px**/
     margin-left: 3.75rem; /*60 px**/
     font-weight: 600;
@@ -2386,7 +2386,7 @@ body {
     font-weight: 400;
     font-size: 1.25rem; /*20px*/
     color: #FFFFFF;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     margin-top: 2.75rem; /*44 px**/
     font-size: 1rem; /*16 px**/
   }
@@ -2412,8 +2412,11 @@ body {
   }
 }
 /*АДАПТИВ БЛОКА МЕНЮ Мобильная версия max-wiedth 431 px**/
-@media (max-width: 27em) {
+@media (max-width: 431px) {
   .container--menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 26.625rem; /*426 px**/
     margin-bottom: 1.5625rem; /*25 px**/
   }
@@ -2422,17 +2425,16 @@ body {
     font-size: 2.75rem; /*44px*/
     font-weight: 600;
     color: #DCCA87;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     font-size: 1rem;
-    margin-left: 1.875rem;
+    align-self: flex-start;
   }
   .container--menu p {
     font-family: "OpenSans", sans-serif;
     font-weight: 400;
     font-size: 1.25rem; /*20px*/
     color: #FFFFFF;
-    letter-spacing: 4%;
-    margin-left: 5.5rem;
+    letter-spacing: 0.025rem;
     margin-top: 1.5625rem; /*25 px**/
     font-size: 0.75rem; /*12 px**/
     width: 18.06rem;
