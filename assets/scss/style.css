@@ -686,7 +686,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.4);
   }
   #check-menu:checked ~ .burger__menu {
-    max-height: 31.25rem;
+    max-height: 32.25rem;
     font-size: 0.75rem;
   }
   #check-menu:checked ~ .first {
@@ -951,8 +951,8 @@ body {
 .about-us__body {
   display: flex;
   flex-direction: column;
-  padding-top: 5.875rem;
-  padding-bottom: 5.875rem;
+  padding-top: 5.875rem; /*94px */
+  padding-bottom: 5.875rem; /*94px*/
 }
 
 .about-us__h2 {
@@ -962,7 +962,7 @@ body {
   color: #DCCA87;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
-  padding-bottom: 3.375rem;
+  padding-bottom: 3.375rem; /*54px*/
 }
 
 .about-us__content {
@@ -971,9 +971,9 @@ body {
 }
 
 .about-us__content--image {
-  max-width: 31.375rem;
-  max-height: 33.125rem;
-  border: 0.0625rem solid #DCCA87;
+  max-width: 31.375rem; /*502px*/
+  max-height: 33.125rem; /*530px*/
+  border: 0.0625rem solid #DCCA87; /*1px*/
 }
 
 .about-us__image {
@@ -985,7 +985,7 @@ body {
 .about-us__content--box {
   display: flex;
   flex-direction: column;
-  padding-left: 3.75rem;
+  padding-left: 3.75rem; /*60px*/
   gap: 1.875rem;
 }
 
@@ -1001,7 +1001,7 @@ body {
 .about-us__content--text {
   display: flex;
   flex-direction: column;
-  gap: 1.875rem;
+  gap: 1.875rem; /*30px*/
 }
 
 .about-us__content--p {
@@ -1010,7 +1010,7 @@ body {
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
   letter-spacing: 0.025rem;
-  max-width: 36.125rem;
+  max-width: 36.125rem; /*578px*/
   line-height: 175%;
 }
 
@@ -1018,11 +1018,108 @@ body {
   font-weight: 700;
 }
 
+/*  Адаптив about-us 1024px*/
+@media (max-width: 1025px) {
+  .container {
+    max-width: 56.5rem; /*904px*/
+  }
+  .about-us__body {
+    padding-top: 4.375rem; /*70px*/
+  }
+  .about-us__h2 {
+    font-size: 2.25rem; /*36px*/
+    padding-bottom: 2.75rem; /*44px*/
+  }
+  .about-us__content--image {
+    max-width: 23.375rem; /*374px*/
+    max-height: 24.6875rem; /*395px*/
+  }
+  .about-us__content--box {
+    padding-left: 2.25rem; /*36px*/
+    gap: 0.75rem; /*12px*/
+  }
+  .about-us__content--title {
+    font-size: 2.25rem; /*36px*/
+  }
+  .about-us__content--text {
+    gap: 0.9375rem; /*15px*/
+  }
+  .about-us__content--p {
+    font-size: 1rem; /*16px*/
+    max-width: 26.625rem; /*426px*/
+  }
+}
+/*  Адаптив about-us 768px*/
+@media (max-width: 769px) {
+  .container {
+    max-width: 42.375rem; /*678px*/
+  }
+  .about-us__body {
+    padding-top: 3.125rem; /*50px*/
+    padding-bottom: 4.375rem; /*70px*/
+  }
+  .about-us__h2 {
+    font-size: 1.625rem; /*26px*/
+    padding-bottom: 2.5rem; /*40px*/
+  }
+  .about-us__content {
+    justify-content: flex-start;
+  }
+  .about-us__content--image {
+    max-width: 18.625rem; /*298px*/
+    max-height: 19.625rem; /*314px*/
+  }
+  .about-us__content--box {
+    padding-left: 1.1875rem; /*19px*/
+    gap: 0.9375rem; /*15px*/
+  }
+  .about-us__content--title {
+    font-size: 1.625rem; /*26px*/
+  }
+  .about-us__content--text {
+    gap: 0.9375rem; /*15px*/
+  }
+  .about-us__content--p {
+    font-size: 0.75rem; /*12px*/
+    max-width: 20.4375rem; /*327px*/
+  }
+}
+/*  Адаптив about-us 430px*/
+@media (max-width: 531px) {
+  .about-us__container {
+    max-width: 23.125rem; /*370px*/
+  }
+  .about-us__body {
+    padding-top: 1.5625rem; /*25px*/
+    padding-bottom: 2.1875rem; /*35px*/
+  }
+  .about-us__h2 {
+    font-size: 1rem; /*16px*/
+    padding-bottom: 1.5625rem; /*25px*/
+  }
+  .about-us__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem; /*20px*/
+  }
+  .about-us__content--image {
+    max-width: 10.625rem; /*170px*/
+    max-height: 12rem; /*192px*/
+  }
+  .about-us__content--box {
+    width: 100%;
+    gap: 1.25rem; /*20px*/
+  }
+  .about-us__content--title {
+    font-size: 1rem; /*16px*/
+    letter-spacing: 3%;
+  }
+}
 /*Преимущества*/
 .benefit__body {
   display: flex;
   flex-direction: column;
-  padding-top: 5.875rem;
+  padding-top: 5.875rem; /* 94px*/
 }
 
 .benefit__title {
@@ -1032,15 +1129,19 @@ body {
   color: #DCCA87;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
-  padding-bottom: 3.375rem;
+  padding-bottom: 3.375rem; /*54px*/
 }
 
 .benefit__content--items {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: 3.75rem;
+  padding-bottom: 3.75rem; /*60px*/
   gap: 1.75rem;
+}
+
+.benefit__icon--image {
+  max-width: 3.25rem; /*52px*/
 }
 
 .benefit__text--p {
@@ -1049,9 +1150,95 @@ body {
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
   letter-spacing: 0.025rem;
-  max-width: 66.1875rem;
+  max-width: 66.1875rem; /*1059px*/
+  text-transform: uppercase;
 }
 
+.br__adaptive-only {
+  display: none;
+}
+
+/*  Адаптив benefit 1024px*/
+@media (max-width: 1025px) {
+  .benefit__container {
+    max-width: 56.5rem; /*904px*/
+  }
+  .benefit__body {
+    padding-top: 4.375rem; /*70px*/
+  }
+  .benefit__title {
+    font-size: 2.25rem; /*36px*/
+    padding-bottom: 2.75rem; /*44px*/
+  }
+  .benefit__content--items {
+    padding-bottom: 3.1875rem; /*51px*/
+    gap: 1.3125rem; /*21px*/
+  }
+  .benefit__icon--image {
+    max-width: 2.875rem; /*46px*/
+  }
+  .benefit__text--p {
+    font-size: 1rem; /*16px*/
+    max-width: 52.9375rem; /*847px*/
+    text-transform: uppercase;
+  }
+}
+/*  Адаптив benefit 768px*/
+@media (max-width: 769px) {
+  .benefit__container {
+    max-width: 42.375rem; /*678px*/
+  }
+  .benefit__body {
+    padding-top: 50px; /*50px*/
+  }
+  .benefit__title {
+    font-size: 1.625rem; /*26px*/
+    padding-bottom: 2.5rem; /*40px*/
+  }
+  .benefit__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5.375rem; /*86px*/
+  }
+  .benefit__content--items {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .benefit__icon--image {
+    max-width: 2.625rem; /*42px*/
+  }
+  .benefit__text--p {
+    font-size: 0.75rem; /*12px*/
+    max-width: 270px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .br__adaptive-only {
+    display: block;
+  }
+}
+/*  Адаптив benefit 430px*/
+@media (max-width: 431px) {
+  .container {
+    max-width: 23.125rem; /*370px*/
+  }
+  .benefit__body {
+    padding-top: 1.5rem; /*24px*/
+  }
+  .benefit__title {
+    font-size: 1rem; /*16px*/
+  }
+  .benefit__content {
+    gap: 2.1875rem; /*35px*/
+  }
+  .benefit__item--mobile-none {
+    display: none;
+  }
+  .benefit__text--p {
+    text-transform: none;
+  }
+}
 .container_karaoke h2, .hookah_container h2 {
   font-family: "Cormorant", sans-serif;
   font-size: 2.75rem; /*44px*/
