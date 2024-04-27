@@ -821,7 +821,7 @@ body {
 }
 @media (max-width: 385px) {
   .header__burger {
-    height: 9.6875rem;
+    max-height: 100vh;
   }
   .header__logo--burger {
     max-width: 3.25rem;

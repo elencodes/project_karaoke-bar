@@ -555,7 +555,7 @@ body {
 //----Header Tablet-Mobile Adaptive (385px) 
 @media (max-width: 385px){
 	.header__burger{
-		height: 9.6875rem; 
+		max-height: 100vh; 
 	}
 .header__logo--burger{
     max-width: 3.25rem;
