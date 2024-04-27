@@ -2166,6 +2166,10 @@ gap: 2.5rem;
 .contacts_button:hover {
 	@include buttonHover;
 }
+.contacts_button:active {
+	@include buttonActive;
+}
+
 .contacts_icon_1 {
 	display: flex;
 	margin-right: 1.375rem;

@@ -2425,6 +2425,13 @@ body {
   transition: border 0.1s linear, color 0.1s linear;
 }
 
+.contacts_button:active {
+  color: #DCCA87;
+  background-color: #FFFFFF;
+  border: 0.125rem solid #DCCA87;
+  transition: background 0.1s linear, color 0.1s linear, border 0.1s linear;
+}
+
 .contacts_icon_1 {
   display: flex;
   margin-right: 1.375rem;
