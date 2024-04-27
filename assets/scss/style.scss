@@ -417,7 +417,7 @@ body {
     border:1px solid rgba(255, 255, 255, 0.4); 
 }
 #check-menu:checked ~ .burger__menu{
-    max-height: 31.25rem;
+    max-height: 32.25rem;
 	font-size: .75rem;
 }
 #check-menu:checked ~ .first{
@@ -801,7 +801,7 @@ body {
   }
   /*  Адаптив about-us 430px*/
 @media (max-width: 531px) {
-	.container {
+	.about-us__container {
 	  max-width: 23.125rem; /*370px*/
 	}
 	.about-us__body {
@@ -862,7 +862,7 @@ body {
   }
   /*  Адаптив benefit 1024px*/
 @media (max-width: 1025px) {
-	.container {
+	.benefit__container {
 	  max-width: 56.5rem; /*904px*/
 	}
 	.benefit__body {
@@ -887,7 +887,7 @@ body {
   }
   /*  Адаптив benefit 768px*/
 @media (max-width: 769px) {
-	.container {
+	.benefit__container {
 	  max-width: 42.375rem; /*678px*/
 	}
 	.benefit__body {
