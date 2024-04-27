@@ -438,7 +438,7 @@ body {
 //----Header Tablet-Mobile Adaptive (605px) 
 @media (max-width: 605px){
 	.header__burger{
-		max-height: 100vh; 
+		height: 10.5rem; 
 	}
 .header__logo--burger{
     max-width: 3.5rem;
@@ -510,7 +510,7 @@ body {
 	width: 20.3125rem;
 }
 .header__checkbox--burger {
-	top: 39%;
+	top: 41%;
 	right: 8vw;
 }
 .burger-line{
@@ -522,13 +522,13 @@ body {
 	background-color: $mainColor;
 }
 .first {
-	top: 6rem;
+	top: 4.7rem;
 }
 .second, .third{
-	top: 6.6rem;
+	top: 5.3rem;
 }
 .fourth{
-	top: 7.2rem;
+	top: 6rem;
 }
 .burger__menu{
 	display: block;

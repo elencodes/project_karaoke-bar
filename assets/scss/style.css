@@ -248,7 +248,7 @@ body {
   font-family: "OpenSans", sans-serif;
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   background-color: #0C0C0C;
   position: fixed;
   width: 100%;
@@ -274,7 +274,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   color: #FFFFFF;
   font-size: 1.75rem;
 }
@@ -336,7 +336,7 @@ body {
   height: 2.5625rem; /*41px*/
   background-color: #DCCA87;
   color: #0C0C0C;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,7 +347,7 @@ body {
   font-family: "OpenSans", sans-serif;
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   color: #0C0C0C;
   font-weight: 700;
   width: 100%;
@@ -397,7 +397,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
@@ -444,7 +444,7 @@ body {
     font-size: 2.75rem; /*44px*/
     font-weight: 600;
     color: #DCCA87;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     color: #FFFFFF;
     font-size: 1.5rem;
   }
@@ -464,7 +464,7 @@ body {
     font-size: 2.75rem; /*44px*/
     font-weight: 600;
     color: #DCCA87;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     font-size: 2.25rem;
     flex-wrap: wrap;
     text-align: center;
@@ -525,7 +525,7 @@ body {
     font-family: "OpenSans", sans-serif;
     font-size: 0.875rem; /*14px*/
     font-weight: 400;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     font-size: 0.625rem;
     top: 45%;
     left: 17vw;
@@ -543,7 +543,7 @@ body {
     font-size: 2.75rem; /*44px*/
     font-weight: 600;
     color: #DCCA87;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     color: #FFFFFF;
     font-size: 1.25rem;
     margin-left: 0.625rem;
@@ -554,7 +554,7 @@ body {
     height: 2.5625rem; /*41px*/
     background-color: #DCCA87;
     color: #0C0C0C;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     width: 12.125rem;
     height: 1.875rem;
     top: 15%;
@@ -595,7 +595,7 @@ body {
     font-family: "OpenSans", sans-serif;
     font-size: 0.875rem; /*14px*/
     font-weight: 400;
-    letter-spacing: 4%;
+    letter-spacing: 0.025rem;
     color: #0C0C0C;
     font-weight: 700;
     width: 100%;
@@ -706,7 +706,7 @@ body {
 }
 @media (max-width: 605px) {
   .header__burger {
-    max-height: 100vh;
+    height: 10.5rem;
   }
   .header__logo--burger {
     max-width: 3.5rem;
@@ -777,7 +777,7 @@ body {
     width: 20.3125rem;
   }
   .header__checkbox--burger {
-    top: 39%;
+    top: 41%;
     right: 8vw;
   }
   .burger-line {
@@ -789,13 +789,13 @@ body {
     background-color: #FFFFFF;
   }
   .first {
-    top: 6rem;
+    top: 4.7rem;
   }
   .second, .third {
-    top: 6.6rem;
+    top: 5.3rem;
   }
   .fourth {
-    top: 7.2rem;
+    top: 6rem;
   }
   .burger__menu {
     display: block;
@@ -959,7 +959,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   text-transform: uppercase;
   padding-bottom: 3.375rem;
 }
@@ -993,7 +993,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   color: #FFFFFF;
 }
 
@@ -1008,7 +1008,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   max-width: 36.125rem;
   line-height: 175%;
 }
@@ -1029,7 +1029,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   text-transform: uppercase;
   padding-bottom: 3.375rem;
 }
@@ -1047,7 +1047,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   max-width: 66.1875rem;
 }
 
@@ -1056,7 +1056,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   padding-top: 5.875rem;
 }
 
@@ -1160,7 +1160,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
 }
 
 .promo_block-images {
@@ -1287,7 +1287,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   color: #0C0C0C;
   text-align: left;
 }
@@ -1300,7 +1300,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   color: #0C0C0C;
   margin-top: 2rem;
 }
@@ -1340,14 +1340,14 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
 }
 .container--menu p {
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   text-align: center;
   margin-top: 3.375rem;
   text-transform: uppercase;
@@ -1376,7 +1376,7 @@ body {
   height: 2.5625rem; /*41px*/
   background-color: #DCCA87;
   color: #0C0C0C;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   align-items: center;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
@@ -1420,7 +1420,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   grid-column: 1/2;
   grid-row: 1/2;
   margin-top: 5.875rem;
@@ -1505,7 +1505,7 @@ body {
   font-size: 2.75rem; /*44px*/
   font-weight: 600;
   color: #DCCA87;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   margin-top: 5.875rem;
   margin-bottom: 3.25rem;
 }
@@ -1542,7 +1542,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   line-height: 1.75;
 }
 
@@ -1593,12 +1593,12 @@ body {
   height: 2.5625rem; /*41px*/
   background-color: #DCCA87;
   color: #0C0C0C;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   font-weight: 700;
   font-size: 14px;
   color: #000000;
@@ -1651,7 +1651,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
   justify-content: center;
   line-height: 2.1875rem;
 }
@@ -1661,7 +1661,7 @@ body {
   font-weight: 400;
   font-size: 1.25rem; /*20px*/
   color: #FFFFFF;
-  letter-spacing: 4%;
+  letter-spacing: 0.025rem;
 }
 
 .footer_text-policy:hover {
