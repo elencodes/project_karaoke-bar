@@ -776,6 +776,10 @@ body {
     font-size: 1rem;
     width: 20.3125rem;
   }
+  .header__checkbox--burger {
+    top: 29%;
+    right: 8vw;
+  }
   .burger-line {
     position: absolute;
     top: 39%;
