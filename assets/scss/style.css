@@ -706,7 +706,7 @@ body {
 }
 @media (max-width: 605px) {
   .header__burger {
-    height: 10.5rem;
+    max-height: 100vh;
   }
   .header__logo--burger {
     max-width: 3.5rem;
@@ -1667,4 +1667,4 @@ body {
   transition: text-decoration-color 0.1s linear, color 0.1s linear;
 }
 
-/*--Адаптив для экранов до 1025px (1025px/16px=64.0625em)-*//*# sourceMappingURL=style.css.map */
+/*--Адаптив для экранов до 1025px (1025px/16px=64.0625em)-*/
