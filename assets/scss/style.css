@@ -2100,9 +2100,37 @@ body {
   .modal-3 {
     width: 40%;
     height: 30%;
+    position: fixed;
+    top: 45%;
   }
   .promo_block-images--button--button {
     font-size: 0.875rem;
+  }
+}
+/*АДАПТИВ БЛОКА Акции Мобильная версия min-wiedth 771px max 985px**/
+@media (min-width: 771px) and (max-width: 985px) {
+  .modal,
+  .modal-2,
+  .modal-3 {
+    position: absolute;
+    width: 70%;
+    height: 30%;
+  }
+  .modal p,
+  .modal-2 p,
+  .modal-3 p {
+    font-size: 0.8rem;
+  }
+  .modal .contact_modal,
+  .modal-2 .contact_modal,
+  .modal-3 .contact_modal {
+    font-size: 1rem;
+  }
+  .modal .contact_modal img,
+  .modal-2 .contact_modal img,
+  .modal-3 .contact_modal img {
+    width: 40px;
+    font-size: 1rem;
   }
 }
 /*АДАПТИВ БЛОКА Акции Мобильная версия min-wiedth 432px max 770px**/
@@ -2119,7 +2147,6 @@ body {
   .container--promo_block h2 {
     font-size: 1.625rem;
     align-self: flex-start;
-    margin-left: 3.75rem;
   }
   .promo_block-images {
     height: 29.9375rem; /*479 px**/
@@ -2129,7 +2156,6 @@ body {
          column-gap: 3.75rem;
     row-gap: 3.75rem;
     width: 29rem;
-    margin-left: 9.625rem;
   }
   .promo_block-images--card1,
   .promo_block-images--card2,
@@ -2263,7 +2289,7 @@ body {
   .pop-up-2,
   .pop-up-3 {
     position: fixed;
-    top: 30%;
+    top: 45%;
     left: 0;
     width: 100%;
     height: 100%;
