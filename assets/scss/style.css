@@ -898,8 +898,9 @@ body {
     width: 20rem;
   }
   .header__checkbox--burger {
-    top: 24%;
+    top: 40%;
     right: 8vw;
+    height: 15%;
   }
   .burger-line {
     position: absolute;
@@ -910,13 +911,13 @@ body {
     background-color: #FFFFFF;
   }
   .first {
-    top: 4.1rem;
+    top: 6.1rem;
   }
   .second, .third {
-    top: 4.6rem;
+    top: 6.6rem;
   }
   .fourth {
-    top: 5.1rem;
+    top: 7.1rem;
   }
   .burger__menu {
     display: block;
