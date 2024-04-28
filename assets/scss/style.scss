@@ -622,7 +622,7 @@ body {
 	}
 	.header__down-line{
 		width:100%;
-		height:12.5rem;
+		height:15.5rem;
 		margin-top: 9.6875rem;
 	}
 	.header__price-per-hour{
@@ -998,13 +998,13 @@ body {
 		display: flex;
 		color: white;
 		justify-content: center;
+		line-height: 1.75;
 	}
 	p{
 		align-items: end;
 	}
 	span{
 		align-items: start;
-		padding-top: 0.8rem;
 	}
 }
 .karaoke{
@@ -1232,6 +1232,7 @@ body {
 		width:23.375rem ;  //374px
 		height:3.6875rem ; //59px
 		font-size:0.75rem ;  //20px
+		line-height: 1.75;
 	}
 	.hookah_container{
 		height:31.8125rem ;
@@ -1888,12 +1889,14 @@ body {
 
 /*АДАПТИВ БЛОКА МЕНЮ Мобильная версия max-width 431 px**/
 @media (max-width:431px){
+	.container__menu-adaptive {
+		padding-bottom: 3.125rem; /*50 px*/
+	}
 	.container--menu{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		height: 26.625rem;/*426 px**/
-		margin-bottom: 1.5625rem;/*25 px**/
 		h2{
 			@include mainH2;
 			font-size: 1rem;
@@ -1926,7 +1929,6 @@ body {
 		height: 1.875rem;/*30px**/
 		font-weight:bold;
 		font-size: 0.75rem;
-		margin-bottom: 1.5625rem;/*25 px**/
 	}
 }
 
@@ -2544,5 +2546,61 @@ body {
 	}
 	.footer_text-policy {
 		padding-bottom: 1.5625rem;
+	}
+}
+
+//Оставляем hover на устройствах, где hover применим
+@media (hover:hover) {
+	.header__nav--part:hover{
+		@include linkHover;
+	}
+	.reserv:hover{
+		@include buttonHover;
+		transform:0.2s; 
+	}
+	.menu_block--text-and-button--button:hover{
+		@include buttonHover;
+	}
+	.photo-gallery_pic_1:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.photo-gallery_pic_2:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.photo-gallery_pic_3:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.photo-gallery_pic_4:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.contacts_button:hover {
+		@include buttonHover;
+	}
+	.footer_text-policy:hover {
+		@include linkHover;
+	}
+}
+
+//Убираем hover на тачпаде, оставляем active
+@media (hover:none) {
+	.header__nav--part:active{
+		@include linkActive;
+	}
+	.reserv:active{
+		@include buttonActive;
+		transform:0.2s; 
+	}
+	.menu_block--text-and-button--button:active{
+		@include buttonActive;
+	}
+	.contacts_button:active {
+		@include buttonActive;
+	}
+	.footer_text-policy:active {
+		@include linkActive;
 	}
 }
