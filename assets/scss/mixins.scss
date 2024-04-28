@@ -5,6 +5,7 @@
 	font-size: 1.25rem; /*20px*/
 	color: $mainColor;
 	letter-spacing: 0.025rem;
+	line-height: 1.75;
 }
 @mixin mainH2{ //Cormorant
 	font-family: $secondaryFont;
@@ -12,6 +13,7 @@
 	font-weight: 600;
 	color: $secondaryColor;
 	letter-spacing: 0.025rem;
+	line-height: 1.75;
 }
 @mixin button{
 	width: 18.3125rem; /*293px*/
@@ -19,6 +21,7 @@
 	background-color: $secondaryColor;
 	color: $accentColor;
 	letter-spacing: 0.025rem;
+	line-height: 1.75;
 }
 @mixin linkHover {
 	text-decoration: underline;
@@ -47,4 +50,5 @@
 	font-size: .875rem; /*14px*/
 	font-weight: 400;
 	letter-spacing: 0.025rem;
+	line-height: 1.75;
 }
