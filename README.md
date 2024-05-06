@@ -3,6 +3,13 @@
   <p>Landing page for booking karaoke bar rooms, created by a team of 6 developers.</p>
   <h2>Website link</h2>
   <a href="https://elencodes.github.io/project_karaoke-bar)/">OLDY</a>
+  <h2>Website functionality</h2>
+<ul>
+  <li>Possibility of booking by phone or via instant messengers.</li>
+  <li>Scroll to the desired section of the site after clicking on a link in the navigation menu (fixed menu).</li>
+  <li>Adaptability to various devices</li>
+  <li>Animation</li>
+</ul>
   <h2>Used technologies:</h2> 
     <div id=technologies>
       <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
