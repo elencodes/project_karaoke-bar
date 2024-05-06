@@ -1,6 +1,7 @@
 <div id="header" align="center">
   <h1>Website for the "OLDY" (Karaoke-lounge bar)</h1>
   <p>Landing page for booking karaoke bar rooms, created by a team of 6 developers.</p>
+  <img src="https://github.com/elencodes/project_karaoke-bar/blob/main/assets/gif/promo.gif">
   <h2>Website link:</h2>
   <a href="https://elencodes.github.io/project_karaoke-bar/">OLDY</a>
   <h2>Used technologies:</h2> 
@@ -13,12 +14,10 @@
       <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
     </div>
   <h2>Website functionality:</h2>
-  <ul>
-    <li>Possibility of booking by phone or via instant messengers.</li>
-    <li>Scroll to the desired section of the site after clicking on a link in the navigation menu (fixed menu).</li>
-    <li>Adaptability to various devices.</li>
-    <li>Animation.</li>
-  </ul>
+  <p>Scroll to the desired section of the site after clicking on a link in the navigation menu (fixed menu).</p>
+  <p>Possibility of booking by phone or via instant messengers.</p>
+  <p>Adaptability to various devices.</p>
+  <p>Animation.</p>
   <h2>Development Team:</h2> 
   <div id=bages>
     <a href="https://github.com/elencodes"><img src="https://img.shields.io/badge/ELENA-%23000000?style=for-the-badge&logo=github"></a>
