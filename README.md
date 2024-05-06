@@ -1,6 +1,6 @@
 <div id="header" align="center">
-  <h1>Landing for the "OLDY" (Karaoke-lounge bar)</h1>
-  <p>Landing page "OLDY" for booking karaoke bar rooms, created by a team of 6 developers.</p>
+  <h1>Website for the "OLDY" (Karaoke-lounge bar)</h1>
+  <p>Landing page for booking karaoke bar rooms, created by a team of 6 developers.</p>
   <h2>Website link</h2>
   <a href="https://elencodes.github.io/project_karaoke-bar)/">OLDY</a>
   <h2>Used technologies:</h2> 
