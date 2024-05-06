@@ -16,8 +16,10 @@
   <h2>Website functionality:</h2>
   <p>Scroll to the desired section of the site after clicking on a link in the navigation menu (fixed menu).</p>
   <p>Possibility of booking by phone or via instant messengers.</p>
-  <p>Adaptability to various devices.</p>
   <p>Animation.</p>
+  <p>Adaptability to various devices.</p>
+  <img src="https://github.com/elencodes/project_karaoke-bar/blob/main/assets/github/burger-menu-1.png" height="380">
+  <img src="https://github.com/elencodes/project_karaoke-bar/blob/main/assets/github/burger-menu-2.png" height="380">
   <h2>Development Team:</h2> 
   <div id=bages>
     <a href="https://github.com/elencodes"><img src="https://img.shields.io/badge/ELENA-%23000000?style=for-the-badge&logo=github"></a>
