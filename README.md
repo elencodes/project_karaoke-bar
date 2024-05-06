@@ -1,6 +1,6 @@
 <div id="header" align="center">
   <h1>Landing for the "OLDY" (Karaoke-lounge bar)</h1>
-  <h2>:fire: Our TEAM:</h2> 
+  <h2>:fire: Development Team:</h2> 
   <div id=bages>
   <a href="https://github.com/elencodes">
     <img src="https://img.shields.io/badge/ELENA-%23000000?style=for-the-badge&logo=github">
